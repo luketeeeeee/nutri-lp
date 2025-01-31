@@ -13,8 +13,8 @@ export default {
         text: "#001d11",
         background: "#f4fffb",
         primary: "#239f6f",
-        secondary: "#7aa9fd",
-        accent: "#4c57fd",
+        secondary: "#a8b8c6",
+        accent: "#8592af",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
