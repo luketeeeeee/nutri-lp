@@ -14,13 +14,13 @@ export default function Home() {
 
       <main>
         <section className="bg-secondary bg-opacity-50 text-background pt-7 px-6 flex flex-col items-center">
-          <h1 className="text-2xl font-semibold text-primary leading-6 mb-10">
-            Alcance uma alimentação saudável mantendo uma vida equilibrada
+          <h1 className="text-2xl font-bold text-primary leading-6 mb-10">
+            Alcance uma alimentação saudável mantendo uma vida equilibrada!
           </h1>
 
           <Link
             href="https://github.com"
-            className="flex gap-2 items-center bg-gradient-to-bl from-green-400 via-green-500 to-primary px-4 py-3 rounded-md font-semibold self-center transition duration-500 hover:from-green-500 hover:to-green-600 hover:bg-gradient-to-bl"
+            className="flex gap-2 items-center w-60 bg-gradient-to-bl from-green-400 via-green-500 to-primary px-4 py-3 rounded-md font-semibold self-center transition duration-500 hover:from-green-500 hover:to-green-600 hover:bg-gradient-to-bl"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ export default function Home() {
               <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
               <path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" />
             </svg>
-            Agenda sua consulta
+            Agende sua consulta
           </Link>
 
           <Image
@@ -50,7 +50,7 @@ export default function Home() {
           />
         </section>
 
-        <section className="pt-14 pb-10 flex gap-4 flex-col items-center bg-secondary">
+        <section className="pt-14 pb-10 flex gap-4 flex-col items-center bg-accent">
           <HomePageCard
             img={
               <svg
@@ -118,14 +118,14 @@ export default function Home() {
           />
         </section>
 
-        <section className="text-center bg-primary py-10 font-poppin">
+        <section className="text-center bg-primary py-10 font-poppin px-6">
           <h1 className="text-3xl font-extrabold text-amber-200 font-playfairDisplay">
             SOBRE A NUTRI
           </h1>
           <h2 className="text-2xl font-semibold mt-[-4px] tracking-widest text-background">
             BIANCA FRADE
           </h2>
-          <section className="text-left text-background mt-4 leading-6 px-6 text-lg flex flex-col gap-4">
+          <section className="text-left text-background border-t border-gray-300 pt-4 mt-4 leading-6 text-lg flex flex-col gap-4">
             <p>
               Profissional altamente capacitada e com ampla experiência,{" "}
               <span className="font-semibold">
@@ -148,13 +148,13 @@ export default function Home() {
           </section>
         </section>
 
-        <section className="text-center bg-secondary py-10 font-poppin">
+        <section className="text-center bg-secondary pt-10 pb-14 font-poppin">
           <h1 className="text-3xl font-extrabold text-amber-200 font-playfairDisplay">
             CONSULTA E ACOMPANHAMENTO
           </h1>
 
           <section className="text-background text-left mt-4 leading-6 px-6 text-lg flex flex-col gap-3">
-            <h2 className="text-2xl font-semibold mt-4 leading-5 tracking-widest text-center">
+            <h2 className="text-2xl font-semibold border-t border-gray-300 pt-4 mt-2 leading-5 tracking-widest text-center">
               <span className="text-primary">NO DIA</span> DA CONSULTA
             </h2>
             <p>
@@ -179,6 +179,80 @@ export default function Home() {
               num prazo de 5 a 7 dias úteis.
             </p>
           </section>
+        </section>
+
+        <section className="text-center bg-accent flex flex-col items-center pt-8 pb-12 font-poppin">
+          <Link
+            href="https://github.com"
+            className="mb-10 mt-[-55px] flex gap-2 items-center w-60 bg-gradient-to-bl from-green-400 via-green-500 to-primary px-4 py-3 rounded-md font-semibold self-center transition duration-500 hover:from-green-500 hover:to-green-600 hover:bg-gradient-to-bl text-background"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="icon icon-tabler icons-tabler-outline icon-tabler-brand-whatsapp"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+              <path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" />
+            </svg>
+            Agende sua consulta
+          </Link>
+          <h1 className="text-3xl font-extrabold text-amber-200 font-playfairDisplay">
+            DEPOIMENTOS
+          </h1>
+          <section className="flex flex-col gap-4 mt-4 text-background text-lg divider text-left px-6">
+            <p className="border-t border-gray-300 pt-4 flex flex-col">
+              &quot;Estava ansioso pra saber os resultados, mas sabia que seria
+              muito bom por confiar demais no seu trabalho e por me dedicar a
+              este processo. Agradeço por todo incentivo. Simbora perder
+              mais.&quot;
+              <span className="block font-semibold">- João</span>
+            </p>
+            <p className="flex flex-col">
+              &quot;Você é toppp e sei que estou com a melhor!!! Sempre quis
+              fazer esse acompanhamento com você. Agora chegou a hora né?&quot;
+              <span className="block font-semibold">- Maria</span>
+            </p>
+          </section>
+        </section>
+
+        <section className="gap-6 flex flex-col text-center bg-primary py-10 font-poppin px-6">
+          <h1 className="font-playfairDisplay text-amber-200 font-black text-3xl">
+            AGENDE SUA CONSULTA ONLINE AGORA MESMO!
+          </h1>
+          <Link
+            href="https://github.com"
+            className="flex gap-2 items-center w-60 bg-gradient-to-bl from-green-400 via-green-500 to-green-500 px-4 py-3 rounded-md font-semibold self-center transition duration-500 hover:from-green-500 hover:to-green-600 hover:bg-gradient-to-bl text-background"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="icon icon-tabler icons-tabler-outline icon-tabler-brand-whatsapp"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+              <path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" />
+            </svg>
+            Agende sua consulta
+          </Link>
+          <h2 className="text-2xl leading-7 font-bold text-background">
+            Mais que um plano alimentar, conquiste a transformação que tanto
+            deseja!
+          </h2>
         </section>
       </main>
     </div>
