@@ -6,11 +6,29 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="min-h-screen font-poppins text-text">
-      <header className="py-8 md:py-12 px-4 bg-primary text-amber-200 text-center font-playfairDisplay">
-        <h1 className="text-4xl font-bold">BIANCA FRADE</h1>
-        <h2 className="text-xl sm:text-2xl font-medium font-poppins tracking-widest">
-          Nutricionista
-        </h2>
+      <header className="py-8 md:py-12 flex items-center justify-center px-4 bg-primary text-amber-200 text-center font-playfairDisplay">
+        <Image
+          src="/images/pineapple-icon.svg"
+          alt="Logo"
+          width={60}
+          height={60}
+          className="mr-10"
+        />
+
+        <section className="flex flex-col">
+          <h1 className="text-4xl font-bold">BIANCA FRADE</h1>
+          <h2 className="text-xl sm:text-2xl font-medium font-poppins tracking-widest">
+            Nutricionista
+          </h2>
+        </section>
+
+        <Image
+          src="/images/pineapple-icon.svg"
+          alt="Logo"
+          width={60}
+          height={60}
+          className="ml-10"
+        />
       </header>
 
       <main>
@@ -20,7 +38,7 @@ export default function Home() {
               Alcance seus objetivos de forma saudável mantendo uma vida
               equilibrada!
             </h1>
-            <h2 className="mb-10 text-accent max-w-[410px] text-center lg:text-left lg:self-start">
+            <h2 className="mb-10 text-lg leading-6 text-accent max-w-[410px] text-center lg:text-left lg:self-start">
               Com um plano personalizado de acordo com as suas necessidades, vou
               te ajudar a alcançar seus objetivos{" "}
               <span className="font-bold">sem complicações!</span>{" "}
