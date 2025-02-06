@@ -8,7 +8,7 @@ export default function HomePageCard({
   cardText: string;
 }) {
   return (
-    <div className="first:mt-[-90px] flex gap-2 rounded-md text-background text-lg items-center font-semibold py-4 bg-opacity-90 bg-gradient-to-bl from-green-500 to-primary drop-shadow-md w-60 justify-center">
+    <div className="first:mt-[-90px] lg:first:mt-0 flex gap-2 rounded-md text-background text-lg items-center font-semibold py-4 bg-opacity-90 bg-gradient-to-bl from-green-500 to-primary drop-shadow-md w-60 justify-center">
       {img}
       <h3>{cardText}</h3>
     </div>

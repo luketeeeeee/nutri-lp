@@ -20,6 +20,9 @@ export default {
         poppins: ["Poppins", "sans-serif"],
         playfairDisplay: ["Playfair Display", "serif"],
       },
+      screens: {
+        xs: "480px",
+      },
     },
   },
   plugins: [],
