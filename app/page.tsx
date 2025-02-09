@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="min-h-screen overflow-x-hidden font-poppins text-text">
-      <header className="flex items-center justify-center px-4 bg-[#d6dcd8] text-amber-200 text-center font-playfairDisplay">
+      <header className="flex items-center justify-center px-4 bg-[#7ea246] bg-opacity-40 text-amber-200 text-center font-playfairDisplay">
         <Image
           src="/images/logo-nutri.png"
           alt="Logo Bianca Frade"
@@ -14,28 +14,6 @@ export default function Home() {
           height={200}
           className="my-[-30px]"
         />
-        {/* <Image */}
-        {/*   src="/images/pineapple-icon.svg" */}
-        {/*   alt="Logo" */}
-        {/*   width={60} */}
-        {/*   height={60} */}
-        {/*   className="mr-7" */}
-        {/* /> */}
-        {/**/}
-        {/* <section className="flex flex-col"> */}
-        {/*   <h1 className="text-4xl font-bold">BIANCA FRADE</h1> */}
-        {/*   <h2 className="text-xl sm:text-2xl font-medium font-poppins tracking-widest"> */}
-        {/*     Nutricionista */}
-        {/*   </h2> */}
-        {/* </section> */}
-        {/**/}
-        {/* <Image */}
-        {/*   src="/images/pineapple-icon.svg" */}
-        {/*   alt="Logo" */}
-        {/*   width={60} */}
-        {/*   height={60} */}
-        {/*   className="ml-7" */}
-        {/* /> */}
       </header>
 
       <main>
@@ -84,7 +62,7 @@ export default function Home() {
           />
         </section>
 
-        <section className="lg:flex-row lg:justify-center lg:py-0 lg:mb-[-30px] lg:mt-[-35px] lg:bg-transparent pt-14 pb-10 flex gap-4 flex-col items-center bg-[#ba9772] bg-opacity-80">
+        <section className="lg:flex-row lg:justify-center lg:py-0 lg:mb-[-30px] lg:mt-[-35px] lg:bg-transparent pt-14 pb-10 flex gap-4 flex-col items-center bg-[#7ea246] bg-opacity-70">
           <HomePageCard
             img={
               <svg
