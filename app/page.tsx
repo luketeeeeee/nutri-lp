@@ -39,13 +39,13 @@ export default function Home() {
       </header>
 
       <main>
-        <section className="isolate md:flex-row md:justify-center md:gap-10 lg:gap-36 md:pt-0 bg-secondary bg-opacity-50 text-background pt-7 px-6 flex flex-col items-center">
+        <section className="isolate md:flex-row md:justify-center md:gap-10 lg:gap-36 md:pt-0 bg-[#7ea246] bg-opacity-40 pt-7 px-6 flex flex-col items-center">
           <div className="flex flex-col items-center md:-mt-16">
-            <h1 className="text-2xl sm:text-3xl sm:leading-7 xs:text-center xs:max-w-[440px] md:text-left font-bold text-primary leading-6 mb-4">
+            <h1 className="text-2xl sm:text-3xl sm:leading-7 xs:text-center xs:max-w-[440px] md:text-left font-bold text-[#471b1d] text-opacity-90 leading-6 mb-4">
               Alcance seus objetivos de forma saudável mantendo uma vida
               equilibrada!
             </h1>
-            <h2 className="mb-10 text-xl leading-6 text-primary text-opacity-75 max-w-[410px] xs:text-center text-left md:text-left md:self-start">
+            <h2 className="mb-10 text-xl leading-6 text-[#471b1d] text-opacity-75 max-w-[410px] xs:text-center text-left md:text-left md:self-start">
               Com um plano personalizado de acordo com as suas necessidades, vou
               te ajudar a alcançar seus objetivos{" "}
               <span className="font-bold">sem complicações!</span>{" "}
@@ -53,7 +53,7 @@ export default function Home() {
 
             <Link
               href="https://github.com"
-              className="md:self-start flex gap-2 items-center w-60 bg-gradient-to-bl from-green-400 via-green-500 to-primary px-4 py-3 rounded-md font-semibold self-center transition duration-500 hover:from-green-500 hover:to-green-600 hover:bg-gradient-to-bl"
+              className="text-white md:self-start flex gap-2 items-center w-60 bg-gradient-to-bl bg-[#7ab41d] px-4 py-3 rounded-md font-semibold self-center transition duration-500 hover:from-green-500 hover:to-green-600 hover:bg-gradient-to-bl"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -76,31 +76,15 @@ export default function Home() {
           </div>
 
           <Image
-            src="/images/main-photo.png"
+            src="/images/photo-1.png"
             alt="Bianca Frade"
             width={300}
             height={300}
-            className="mt-12 max-w-[250px] md:max-w-[300px] object-cover"
-          />
-
-          <Image
-            src="/images/pineapple-icon.svg"
-            width={600}
-            height={600}
-            alt="Imagem de fundo principal"
-            className="hidden md:flex md:-left-56 md:absolute md:-z-10 md:rotate-45"
-          />
-
-          <Image
-            src="/images/pineapple-icon.svg"
-            width={600}
-            height={600}
-            alt="Imagem de fundo principal"
-            className="hidden 2xl:flex 2xl:-right-56 2xl:absolute 2xl:-z-10 2xl:-rotate-45"
+            className="mt-[-70px] md:mt-[-20px] max-w-[500px] md:max-w-[600px] object-cover"
           />
         </section>
 
-        <section className="lg:flex-row lg:justify-center lg:py-0 lg:mb-[-30px] lg:mt-[-35px] lg:bg-transparent pt-14 pb-10 flex gap-4 flex-col items-center bg-secondary">
+        <section className="lg:flex-row lg:justify-center lg:py-0 lg:mb-[-30px] lg:mt-[-35px] lg:bg-transparent pt-14 pb-10 flex gap-4 flex-col items-center bg-[#ba9772] bg-opacity-80">
           <HomePageCard
             img={
               <svg
