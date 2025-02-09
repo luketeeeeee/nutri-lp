@@ -9,12 +9,18 @@ export default {
   theme: {
     extend: {
       colors: {
+        // foreground: "var(--foreground)",
+        // text: "#001d11",
+        // background: "#f4fffb",
+        // primary: "#239f6f",
+        // secondary: "#a8b8c6",
+        // accent: "#8592af",
         foreground: "var(--foreground)",
         text: "#001d11",
         background: "#f4fffb",
-        primary: "#239f6f",
-        secondary: "#a8b8c6",
-        accent: "#8592af",
+        primary: "#0f482f",
+        secondary: "#779e39",
+        accent: "#e5ab7e",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],

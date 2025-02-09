@@ -23,3 +23,8 @@ body {
 iframe#instagram-embed-0 {
   min-width: 290px !important;
 }
+
+html,
+body {
+  overflow-x: hidden;
+}
