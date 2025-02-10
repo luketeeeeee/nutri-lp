@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="min-h-screen overflow-x-hidden font-poppins text-text">
-      <header className="flex items-center justify-center px-4 bg-[#7ea246] bg-opacity-40 text-amber-200 text-center font-playfairDisplay">
+      <header className="flex items-center justify-center px-4 bg-gray2 text-amber-200 text-center font-playfairDisplay">
         <Image
           src="/images/logo-nutri.png"
           alt="Logo Bianca Frade"
@@ -17,13 +17,13 @@ export default function Home() {
       </header>
 
       <main>
-        <section className="isolate md:flex-row md:justify-center md:gap-10 lg:gap-36 md:pt-0 bg-[#7ea246] bg-opacity-40 pt-7 px-6 flex flex-col items-center">
+        <section className="isolate md:flex-row md:justify-center md:gap-10 lg:gap-36 md:pt-0 bg-gray2 pt-7 px-6 flex flex-col items-center">
           <div className="flex flex-col items-center md:-mt-16">
-            <h1 className="text-2xl sm:text-3xl sm:leading-7 xs:text-center xs:max-w-[440px] md:text-left font-bold text-[#471b1d] text-opacity-90 leading-6 mb-4">
+            <h1 className="text-2xl sm:text-3xl sm:leading-7 xs:text-center xs:max-w-[440px] md:text-left font-bold text-brown2 text-opacity-90 leading-6 mb-4">
               Alcance seus objetivos de forma saudável mantendo uma vida
               equilibrada!
             </h1>
-            <h2 className="mb-10 text-xl leading-6 text-[#471b1d] text-opacity-75 max-w-[410px] xs:text-center text-left md:text-left md:self-start">
+            <h2 className="mb-10 text-xl leading-6 text-brown2 text-opacity-75 max-w-[410px] xs:text-center text-left md:text-left md:self-start">
               Com um plano personalizado de acordo com as suas necessidades, vou
               te ajudar a alcançar seus objetivos{" "}
               <span className="font-bold">sem complicações!</span>{" "}
@@ -62,7 +62,7 @@ export default function Home() {
           />
         </section>
 
-        <section className="lg:flex-row lg:justify-center lg:py-0 lg:mb-[-30px] lg:mt-[-35px] lg:bg-transparent pt-14 pb-10 flex gap-4 flex-col items-center bg-[#7ea246] bg-opacity-70">
+        <section className="lg:flex-row lg:justify-center lg:py-0 lg:mb-[-30px] lg:mt-[-35px] lg:bg-transparent pt-14 pb-10 flex gap-4 flex-col items-center bg-gray2 bg-opacity-70">
           <HomePageCard
             img={
               <svg
@@ -131,7 +131,7 @@ export default function Home() {
         </section>
 
         <section className="text-center bg-primary pb-10 pt-16 flex flex-col items-center font-poppin px-6">
-          <h1 className="text-3xl md:text-4xl font-extrabold text-amber-200 font-playfairDisplay">
+          <h1 className="text-3xl md:text-4xl font-extrabold  text-amber-200 font-playfairDisplay">
             SOBRE A NUTRI
           </h1>
           <h2 className="text-2xl font-semibold mt-[-4px] tracking-widest text-background">
@@ -160,41 +160,79 @@ export default function Home() {
               </span>{" "}
               pela Faculdade Oriental das Américas
             </p>
+            <p>
+              Ganhadora do{" "}
+              <span className="font-semibold">
+                prêmio destaque de 2020/2021 em Patos, Paraíba
+              </span>
+              , assim como do prêmio{" "}
+              <span className="font-semibold">Top of Mind Brasil</span> como
+              <span>melhor nutricionista da região.</span>
+            </p>
           </section>
         </section>
 
-        <section className="text-center bg-secondary bg-opacity-50 pt-10 pb-14 font-poppin flex flex-col items-center">
-          <h1 className="text-3xl md:text-4xl xs:max-w-[360px] font-extrabold text-primary font-playfairDisplay">
+        <section className="text-center bg-gray2 pt-10 pb-14 font-poppin flex flex-col items-center">
+          <h1 className="text-3xl md:text-4xl xs:max-w-[360px] font-extrabold text-brown2 text-opacity-90 font-playfairDisplay">
             CONSULTA E ACOMPANHAMENTO
           </h1>
 
           <hr className="h-px my-4 w-72 bg-gray-200 border-0" />
 
-          <section className="text-white mt-4 xs:w-[390px] xs:text-center text-left leading-6 px-6 text-lg flex flex-col gap-3">
-            <h2 className="text-2xl font-semibold leading-5 tracking-widest text-center">
-              <span className="text-secondary">NO DIA</span> DA CONSULTA
-            </h2>
-            <p>
-              Haverá uma conversa sobre sua{" "}
-              <span className="font-semibold">
-                alimentação, rotina, horários e hábitos
-              </span>
-              , além de uma{" "}
-              <span className="font-semibold">avaliação física detalhada</span>.
-            </p>
-          </section>
+          <section className="lg:flex">
+            <section className="lg:flex-col">
+              <section className="text-brown2 text-opacity-75 mt-4 xs:w-[390px] md:w-[450px] xs:text-center text-left leading-6 px-6 text-lg flex flex-col gap-3">
+                <h2 className="text-2xl font-semibold leading-5 tracking-widest text-center">
+                  <span className="text-green1">NO DIA</span> DA CONSULTA
+                </h2>
+                <p>
+                  Haverá uma conversa sobre sua{" "}
+                  <span className="font-semibold">
+                    alimentação, rotina, horários e hábitos
+                  </span>
+                  , além de uma{" "}
+                  <span className="font-semibold">
+                    avaliação física detalhada
+                  </span>
+                  .
+                </p>
+              </section>
 
-          <section className="text-white xs:w-[390px] xs:text-center text-left mt-4 leading-6 px-6 text-lg flex flex-col gap-3">
-            <h2 className="text-2xl font-semibold mt-4 leading-5 tracking-widest text-center">
-              <span className="text-secondary">DEPOIS</span> DA CONSULTA
-            </h2>
-            <p>
-              Você receberá seu plano alimentar{" "}
-              <span className="font-semibold">
-                desenvolvido exclusivamente para você
-              </span>{" "}
-              num prazo de 5 a 7 dias úteis.
-            </p>
+              <section className="text-brown2 text-opacity-75 xs:w-[390px] md:w-[450px] xs:text-center text-left mt-4 leading-6 px-6 text-lg flex flex-col gap-3">
+                <h2 className="text-2xl font-semibold mt-4 leading-5 tracking-widest text-center">
+                  <span className="text-green1">DEPOIS</span> DA CONSULTA
+                </h2>
+                <p>
+                  Você receberá seu plano alimentar{" "}
+                  <span className="font-semibold">
+                    desenvolvido exclusivamente para você
+                  </span>{" "}
+                  num prazo de 5 a 7 dias úteis.
+                </p>
+              </section>
+            </section>
+
+            <section className="text-brown2 text-opacity-75 xs:w-[390px] md:w-[450px] xs:text-center text-left leading-6 px-6 text-lg flex flex-col gap-3">
+              <h2 className="text-2xl font-semibold mt-4 text-green1 leading-5 tracking-widest text-center">
+                VAMOS FAZER FUNCIONAR
+              </h2>
+              <p>
+                Cada paciente é único, por isso,{" "}
+                <span className="font-semibold">
+                  meu acompanhamento é extremamente individual
+                </span>
+                . Minha principal missão é ensinar as pessoas a como conquistar
+                a sua transformação.
+              </p>
+              <p>
+                {" "}
+                Essa mudança acontecerá através da implementação de uma{" "}
+                <span className="font-semibold">
+                  alimentação com alimentos que você gosta, suplementação e
+                  fitoterapia.
+                </span>{" "}
+              </p>
+            </section>
           </section>
         </section>
 
