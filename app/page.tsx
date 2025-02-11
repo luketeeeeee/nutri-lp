@@ -30,8 +30,8 @@ export default function Home() {
             </h2>
 
             <Link
-              href="https://github.com"
-              className="text-white md:self-start flex gap-2 items-center w-60 px-4 py-3 rounded-md font-semibold self-center from-green-500 to-green-600 bg-gradient-to-bl"
+              href="https://wa.me/5583991477001"
+              className="flex gap-2 items-center w-60 bg-gradient-to-bl from-green-400 via-green-500 to-green-500 px-4 py-3 rounded-md font-semibold self-center transition duration-500 hover:from-green-500 hover:to-green-600 hover:bg-gradient-to-bl text-background"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -249,8 +249,8 @@ export default function Home() {
 
         <section className="text-center bg-green1 bg-opacity-90 flex flex-col items-center pt-8 pb-12 font-poppin">
           <Link
-            href="https://github.com"
-            className="mb-10 mt-[-55px] flex gap-2 items-center w-60 px-4 py-3 rounded-md font-semibold self-center from-green-500 to-green-600 bg-gradient-to-bl text-background"
+            href="https://wa.me/5583991477001"
+            className="flex gap-2 items-center w-60 bg-gradient-to-bl from-green-400 via-green-500 to-green-500 px-4 py-3 rounded-md font-semibold self-center transition duration-500 hover:from-green-500 hover:to-green-600 hover:bg-gradient-to-bl text-background mb-10 mt-[-55px]"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -287,7 +287,7 @@ export default function Home() {
             AGENDE SUA CONSULTA ONLINE AGORA MESMO!
           </h1>
           <Link
-            href="https://github.com"
+            href="https://wa.me/5583991477001"
             className="flex gap-2 items-center w-60 bg-gradient-to-bl from-green-400 via-green-500 to-green-500 px-4 py-3 rounded-md font-semibold self-center transition duration-500 hover:from-green-500 hover:to-green-600 hover:bg-gradient-to-bl text-background"
           >
             <svg
