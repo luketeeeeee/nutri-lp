@@ -130,8 +130,8 @@ export default function Home() {
           />
         </section>
 
-        <section className="text-center bg-primary pb-10 pt-16 flex flex-col items-center font-poppin px-6">
-          <h1 className="text-3xl md:text-4xl font-extrabold  text-amber-200 font-playfairDisplay">
+        <section className="text-center bg-green1 bg-opacity-90 pt-16 flex flex-col items-center font-poppin px-6">
+          <h1 className="text-3xl md:text-4xl font-extrabold text-primary text-opacity-90 font-playfairDisplay">
             SOBRE A NUTRI
           </h1>
           <h2 className="text-2xl font-semibold mt-[-4px] tracking-widest text-background">
@@ -140,35 +140,46 @@ export default function Home() {
 
           <hr className="h-px my-4 w-72 bg-gray-200 border-0" />
 
-          <section className="text-left xs:w-[390px] md:w-[400px] text-background leading-6 text-lg flex flex-col gap-4">
-            <p>
-              Profissional altamente capacitada e com ampla experiência,{" "}
-              <span className="font-semibold">
-                com mais de cinco mil pacientes
-              </span>
-              , realizando atendimentos com foco em emagrecimento, hipertrofia e
-              performance.
-            </p>
-            <p>
-              Possui{" "}
-              <span className="font-semibold">
-                pós-graduação em Nutrição Clínica e Nutrição Funcional
-              </span>
-              , além de ser{" "}
-              <span className="font-semibold">
-                pós-graduada em Fisioterapia
-              </span>{" "}
-              pela Faculdade Oriental das Américas
-            </p>
-            <p>
-              Ganhadora do{" "}
-              <span className="font-semibold">
-                prêmio destaque de 2020/2021 em Patos, Paraíba
-              </span>
-              , assim como do prêmio{" "}
-              <span className="font-semibold">Top of Mind Brasil</span> como
-              <span>melhor nutricionista da região.</span>
-            </p>
+          <section className="md:flex md:flex-row md:mt-4 md:justify-between text-left xs:w-[390px] md:w-[700px] lg:w-[850px] text-background leading-6 text-lg flex flex-col gap-4">
+            <section className="w-full flex flex-col gap-4 md:w-[400px]">
+              <p>
+                Profissional altamente capacitada e com ampla experiência,{" "}
+                <span className="font-semibold">
+                  com mais de cinco mil pacientes
+                </span>
+                , realizando atendimentos com foco em emagrecimento, hipertrofia
+                e performance.
+              </p>
+              <p>
+                Possui{" "}
+                <span className="font-semibold">
+                  pós-graduação em Nutrição Clínica e Nutrição Funcional
+                </span>
+                , além de ser{" "}
+                <span className="font-semibold">
+                  pós-graduada em Fitoterapia
+                </span>{" "}
+                pela Faculdade Oriental das Américas
+              </p>
+              <p>
+                Ganhadora do{" "}
+                <span className="font-semibold">
+                  prêmio destaque de 2020/2021 em Patos, Paraíba
+                </span>
+                , assim como do prêmio{" "}
+                <span className="font-semibold">Top of Mind Brasil</span> como
+                <span>melhor nutricionista da região.</span>
+              </p>
+            </section>
+
+            <Image
+              alt="Nutri Bianca Frade"
+              src="/images/photo-2.png"
+              // className="absolute right-80 mt-[-40px]"
+              className="-mt-14 md:w-[280px] md:h-full md:-mt-10 lg:w-[350px] lg:-mt-20"
+              width={350}
+              height={70}
+            />
           </section>
         </section>
 
@@ -179,9 +190,9 @@ export default function Home() {
 
           <hr className="h-px my-4 w-72 bg-gray-200 border-0" />
 
-          <section className="lg:flex">
+          <section className="lg:flex md:mt-4">
             <section className="lg:flex-col">
-              <section className="text-brown2 text-opacity-75 mt-4 xs:w-[390px] md:w-[450px] xs:text-center text-left leading-6 px-6 text-lg flex flex-col gap-3">
+              <section className="text-brown2 text-opacity-75 xs:w-[390px] md:w-[450px] xs:text-center text-left leading-6 px-6 text-lg flex flex-col gap-3">
                 <h2 className="text-2xl font-semibold leading-5 tracking-widest text-center">
                   <span className="text-green1">NO DIA</span> DA CONSULTA
                 </h2>
@@ -212,8 +223,8 @@ export default function Home() {
               </section>
             </section>
 
-            <section className="text-brown2 text-opacity-75 xs:w-[390px] md:w-[450px] xs:text-center text-left leading-6 px-6 text-lg flex flex-col gap-3">
-              <h2 className="text-2xl font-semibold mt-4 text-green1 leading-5 tracking-widest text-center">
+            <section className="text-brown2 text-opacity-75 mt-8 lg:mt-0 xs:w-[390px] md:w-[450px] xs:text-center text-left leading-6 px-6 text-lg flex flex-col gap-3">
+              <h2 className="text-2xl font-semibold text-green1 leading-5 tracking-widest text-center">
                 VAMOS FAZER FUNCIONAR
               </h2>
               <p>
@@ -236,10 +247,10 @@ export default function Home() {
           </section>
         </section>
 
-        <section className="text-center bg-secondary flex flex-col items-center pt-8 pb-12 font-poppin">
+        <section className="text-center bg-green1 bg-opacity-90 flex flex-col items-center pt-8 pb-12 font-poppin">
           <Link
             href="https://github.com"
-            className="mb-10 mt-[-55px] flex gap-2 items-center w-60 bg-gradient-to-bl from-green-400 via-green-500 to-primary px-4 py-3 rounded-md font-semibold self-center transition duration-500 hover:from-green-500 hover:to-green-600 hover:bg-gradient-to-bl text-background"
+            className="mb-10 mt-[-55px] flex gap-2 items-center w-60 px-4 py-3 rounded-md font-semibold self-center from-green-500 to-green-600 bg-gradient-to-bl text-background"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
