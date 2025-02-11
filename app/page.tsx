@@ -31,7 +31,7 @@ export default function Home() {
 
             <Link
               href="https://github.com"
-              className="text-white md:self-start flex gap-2 items-center w-60 bg-gradient-to-bl bg-[#7ab41d] px-4 py-3 rounded-md font-semibold self-center transition duration-500 hover:from-green-500 hover:to-green-600 hover:bg-gradient-to-bl"
+              className="text-white md:self-start flex gap-2 items-center w-60 px-4 py-3 rounded-md font-semibold self-center from-green-500 to-green-600 bg-gradient-to-bl"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -282,8 +282,8 @@ export default function Home() {
           </section>
         </section>
 
-        <section className="gap-6 flex items-center flex-col text-center bg-primary py-10 font-poppin px-6">
-          <h1 className="xs:max-w-[500px] font-playfairDisplay text-amber-200 font-black text-3xl">
+        <section className="gap-6 flex items-center flex-col text-center bg-gray2 py-10 font-poppin px-6">
+          <h1 className="xs:max-w-[500px] font-playfairDisplay text-brown2 text-opacity-90 font-black text-3xl">
             AGENDE SUA CONSULTA ONLINE AGORA MESMO!
           </h1>
           <Link
@@ -308,10 +308,63 @@ export default function Home() {
             </svg>
             Agende sua consulta
           </Link>
-          <h2 className="xs:max-w-[460px] text-2xl leading-7 font-bold text-background">
+          <h2 className="xs:max-w-[460px] text-2xl leading-7 font-bold text-brown2 text-opacity-75">
             Mais que um plano alimentar, conquiste a transformação que tanto
             deseja!
           </h2>
+        </section>
+
+        <section className="flex flex-col items-center py-10 px-6 bg-green1 bg-opacity-90 font-playfairDisplay text-primary text-opacity-90 font-black text-3xl">
+          <h1>MEUS CONTATOS</h1>
+
+          <section className="flex flex-col items-center text-lg text-white mt-5 gap-1">
+            <Link
+              href="https://www.instagram.com/nutribiancafrade/"
+              className="flex items-center font-semibold text-2xl text-white"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="w-11 h-11 stroke-white icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                <path d="M16.5 7.5v.01" />
+              </svg>
+              <p className="ml-3">@nutribiancafrade</p>
+            </Link>
+
+            <Link
+              href="https://wa.me/5583991477001"
+              className="flex items-center font-semibold text-2xl text-white"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="w-10 h-10 stroke-white icon icon-tabler icons-tabler-outline icon-tabler-brand-whatsapp"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                <path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" />
+              </svg>
+              <p className="ml-3">(83) 99147-7001</p>
+            </Link>
+          </section>
         </section>
       </main>
     </div>
