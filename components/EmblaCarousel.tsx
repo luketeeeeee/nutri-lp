@@ -48,8 +48,9 @@ export default function EmblaCarousel() {
       >
         <div className="flex gap-10 xs:gap-6 embla__container">
           {[
-            "https://www.instagram.com/p/DFd0yiKPShD/",
             "https://www.instagram.com/reel/DFbK5WlPDj4/",
+            "https://www.instagram.com/reel/DF2xcnKuU4l/",
+            "https://www.instagram.com/reel/DFd0yiKPShD/",
           ].map((link) => (
             <div
               key={link}
