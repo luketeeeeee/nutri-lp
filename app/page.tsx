@@ -283,8 +283,8 @@ export default function Home() {
         </section>
 
         <section className="gap-6 flex items-center flex-col text-center bg-gray2 py-10 font-poppin px-6">
-          <h1 className="xs:max-w-[500px] font-playfairDisplay text-brown2 text-opacity-90 font-black text-3xl">
-            AGENDE SUA CONSULTA ONLINE AGORA MESMO!
+          <h1 className="xs:max-w-[450px] font-playfairDisplay text-brown2 text-opacity-90 font-black text-3xl">
+            AGENDE SUA CONSULTA AGORA MESMO!
           </h1>
           <Link
             href="https://wa.me/5583991477001"
