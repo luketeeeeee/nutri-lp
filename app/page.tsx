@@ -30,8 +30,9 @@ export default function Home() {
             </h2>
 
             <Link
+              prefetch={false}
               href="https://wa.me/5583991477001"
-              className="flex gap-2 items-center w-60 bg-gradient-to-bl from-green-400 via-green-500 to-green-500 px-4 py-3 rounded-md font-semibold self-center transition duration-500 hover:from-green-500 hover:to-green-600 hover:bg-gradient-to-bl text-background"
+              className="flex z-10 gap-2 items-center w-60 bg-gradient-to-bl from-green-400 via-green-500 to-green-500 px-4 py-3 rounded-md font-semibold self-center transition duration-500 hover:from-green-500 hover:to-green-600 hover:bg-gradient-to-bl text-background"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -167,7 +168,7 @@ export default function Home() {
                   prêmio destaque de 2020/2021 em Patos, Paraíba
                 </span>
                 , assim como do prêmio{" "}
-                <span className="font-semibold">Top of Mind Brasil</span> como
+                <span className="font-semibold">Top of Mind Brasil</span> como{" "}
                 <span>melhor nutricionista da região.</span>
               </p>
             </section>
@@ -249,6 +250,7 @@ export default function Home() {
 
         <section className="text-center bg-green1 bg-opacity-90 flex flex-col items-center pt-8 pb-12 font-poppin">
           <Link
+            prefetch={false}
             href="https://wa.me/5583991477001"
             className="flex gap-2 items-center w-60 bg-gradient-to-bl from-green-400 via-green-500 to-green-500 px-4 py-3 rounded-md font-semibold self-center transition duration-500 hover:from-green-500 hover:to-green-600 hover:bg-gradient-to-bl text-background mb-10 mt-[-55px]"
           >
@@ -287,6 +289,7 @@ export default function Home() {
             AGENDE SUA CONSULTA AGORA MESMO!
           </h1>
           <Link
+            prefetch={false}
             href="https://wa.me/5583991477001"
             className="flex gap-2 items-center w-60 bg-gradient-to-bl from-green-400 via-green-500 to-green-500 px-4 py-3 rounded-md font-semibold self-center transition duration-500 hover:from-green-500 hover:to-green-600 hover:bg-gradient-to-bl text-background"
           >
@@ -343,6 +346,7 @@ export default function Home() {
             </Link>
 
             <Link
+              prefetch={false}
               href="https://wa.me/5583991477001"
               className="flex justify-center items-center font-semibold text-2xl text-white"
             >
