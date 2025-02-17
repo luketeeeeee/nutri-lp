@@ -5,7 +5,7 @@ import useEmblaCarousel from "embla-carousel-react";
 
 export default function EmblaCarousel() {
   const [emblaRef, emblaApi] = useEmblaCarousel(
-    { dragFree: true, axis: "x" },
+    { loop: true, containScroll: false, axis: "x" },
     [],
   );
 
@@ -42,10 +42,7 @@ export default function EmblaCarousel() {
         </svg>
       </button>
 
-      <div
-        className="min-w-0 pt-10 sm:pt-6 overflow-hidden embla"
-        ref={emblaRef}
-      >
+      <div className="min-w-0 overflow-hidden embla" ref={emblaRef}>
         <div className="flex gap-10 xs:gap-6 embla__container">
           {[
             "https://www.instagram.com/reel/DFbK5WlPDj4/",
@@ -54,10 +51,10 @@ export default function EmblaCarousel() {
           ].map((link) => (
             <div
               key={link}
-              className="flex-none w-[300px] h-[510px] xs:w-[330px] md:w-[400px] md:h-[600px]" // Ajuste conforme necessário
+              className="flex-none w-[300px] h-[510px] xs:w-[330px] md:w-[400px] md:h-[600px]"
             >
               <blockquote
-                className="instagram-media w-full h-full"
+                className="instagram-media pointer-events-none w-full h-full"
                 data-instgrm-permalink={link}
                 data-instgrm-version="14"
               ></blockquote>
