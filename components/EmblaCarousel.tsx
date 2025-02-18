@@ -5,7 +5,7 @@ import useEmblaCarousel from "embla-carousel-react";
 
 export default function EmblaCarousel() {
   const [emblaRef, emblaApi] = useEmblaCarousel(
-    { dragFree: true, axis: "x" },
+    { containScroll: false, axis: "x" },
     [],
   );
 
@@ -24,8 +24,8 @@ export default function EmblaCarousel() {
   }, []);
 
   return (
-    <section className="flex justify-center w-[300px] xs:w-[430px] lg:w-[520px] gap-2 mx-auto">
-      <button className="hidden xs:flex self-center" onClick={scrollPrev}>
+    <section className="flex justify-center w-[400px] xs:w-[430px] lg:w-[520px] gap-2 mx-auto">
+      <button className="flex self-center" onClick={scrollPrev}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -42,10 +42,7 @@ export default function EmblaCarousel() {
         </svg>
       </button>
 
-      <div
-        className="min-w-0 pt-10 sm:pt-6 overflow-hidden embla"
-        ref={emblaRef}
-      >
+      <div className="min-w-0 overflow-hidden embla" ref={emblaRef}>
         <div className="flex gap-10 xs:gap-6 embla__container">
           {[
             "https://www.instagram.com/reel/DFbK5WlPDj4/",
@@ -54,10 +51,10 @@ export default function EmblaCarousel() {
           ].map((link) => (
             <div
               key={link}
-              className="flex-none w-[300px] h-[510px] xs:w-[330px] md:w-[400px] md:h-[600px]" // Ajuste conforme necessário
+              className="flex-none w-[300px] h-[510px] xs:w-[330px] md:w-[400px] md:h-[600px]"
             >
               <blockquote
-                className="instagram-media w-full h-full"
+                className="instagram-media pointer-events-none w-full h-full"
                 data-instgrm-permalink={link}
                 data-instgrm-version="14"
               ></blockquote>
@@ -66,7 +63,7 @@ export default function EmblaCarousel() {
         </div>
       </div>
 
-      <button className="hidden xs:flex self-center" onClick={scrollNext}>
+      <button className="flex self-center" onClick={scrollNext}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
