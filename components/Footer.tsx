@@ -8,7 +8,7 @@ export default function Footer() {
       <section className="flex flex-col items-center text-lg text-white mt-5 gap-1">
         <Link
           href="https://www.instagram.com/nutribiancafrade/"
-          className="flex justify-center items-center font-semibold text-2xl text-white"
+          className="flex justify-center items-center font-semibold xs:text-2xl text-white"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@ export default function Footer() {
           target="_blank"
           prefetch={false}
           href="https://wa.me/5583991477001"
-          className="flex justify-center items-center font-semibold text-2xl text-white"
+          className="flex justify-center items-center font-semibold xs:text-2xl text-white"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +55,7 @@ export default function Footer() {
           <p className="ml-3">(83) 99147-7001</p>
         </Link>
 
-        <div className="flex justify-center font-semibold text-2xl text-white">
+        <div className="flex justify-center font-semibold xs:text-2xl text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
