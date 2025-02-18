@@ -279,7 +279,7 @@ export default function Home() {
             DEPOIMENTOS
           </h1>
           <h2 className="text-xl font-semibold mt-[-4px] tracking-wider text-background">
-            ARRASTE PARA O LADO
+            CONHEÇA ALGUMAS HISTÓRIAS
           </h2>
           <hr className="h-px my-6 w-72 bg-gray-300 border-0" />
           <section className="flex justify-center w-screen flex-col gap-4 text-background text-lg divider text-left px-0">

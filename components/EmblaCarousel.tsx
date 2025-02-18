@@ -5,7 +5,7 @@ import useEmblaCarousel from "embla-carousel-react";
 
 export default function EmblaCarousel() {
   const [emblaRef, emblaApi] = useEmblaCarousel(
-    { loop: true, containScroll: false, axis: "x" },
+    { containScroll: false, axis: "x" },
     [],
   );
 
@@ -24,8 +24,8 @@ export default function EmblaCarousel() {
   }, []);
 
   return (
-    <section className="flex justify-center w-[300px] xs:w-[430px] lg:w-[520px] gap-2 mx-auto">
-      <button className="hidden xs:flex self-center" onClick={scrollPrev}>
+    <section className="flex justify-center w-[400px] xs:w-[430px] lg:w-[520px] gap-2 mx-auto">
+      <button className="flex self-center" onClick={scrollPrev}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -63,7 +63,7 @@ export default function EmblaCarousel() {
         </div>
       </div>
 
-      <button className="hidden xs:flex self-center" onClick={scrollNext}>
+      <button className="flex self-center" onClick={scrollNext}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
